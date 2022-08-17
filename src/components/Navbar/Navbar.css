@@ -1,0 +1,48 @@
+.navbar 
+{
+    background-color: white;
+}
+
+.navbar-nav .nav-link
+{
+    font-family: 'Raleway' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 20px !important;
+line-height: 120% !important;
+text-transform: capitalize;
+margin-left: 10px;
+
+}
+.navbar-nav .nav-link.active
+{
+    position: relative;
+    font-family: 'Raleway' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 20px !important;
+line-height: 120% !important;
+color: #5ECE7B !important;
+text-align: center;
+}
+.navbar-nav .nav-link.active::after
+{
+    position: absolute;
+    top: 100%;
+    left: 12%;
+  content: '';
+  border: 1px solid #5ECE7B;
+  width: 55px;
+height: 2px;
+}
+.navbar .fa-solid 
+{
+margin-top: 12px;
+margin-right: 20px;
+
+}
+.nav-link a 
+{
+    text-decoration: none !important;
+    color: black !important;
+}
